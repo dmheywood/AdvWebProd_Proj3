@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#999;
+	margin: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;	
+}
+
+#page {
+	margin-top: 10px;
+}
+
+#nav {	
+	background-color: #FFF;
+	height: 30px;	
+	padding-top: 10px;
+	box-shadow: 2px 2px 5px #000;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+}
+
+#nav ul {
+	margin: 0;
+	text-align: left;
+}
+
+#nav ul li {
+   	margin: 0;
+    padding: 0px 10px 0px 5px;
+    border-right: 1px solid #000;
+}
+
+#nav ul li:last-child {
+	border-right: none;
+}
+
+a:hover {
+	text-shadow: 0px 0px 5px grey;	
+}
+
+#nav li, #nav a {	
+	display: inline-block;
+	color: #A36;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+article {
+	border: 8px solid #FFF;
+	box-shadow: 2px 2px 5px #000;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+}
+
+article p {
+	padding-left: 12px;
+}
+
+article h3 {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-image:url(Assets/stripes.gif);
+	padding: 5px 5px 5px 15px;
+	margin-left: 0px;
+	margin-top: 0px;
+	text-shadow: 2px 2px 5px grey;
+}
+
+#sidebar>article {
+	border-radius: 20px;	
+	background: #CCC url(Assets/grasses.png) repeat-y right;
+	width: 300px;
+	float: left;	
+}
+
+#content>article {
+	border-radius: 20px;	
+	background: #CCC url(Assets/grasses.png) repeat-y right;	
+	margin-left: 350px;
+	margin-right: 20px;
+	margin-bottom: 20px;	
+}
+
+#page h3, #page p, #page ul {	
+	padding-right: 65px;
+}
+
+#sidebar #content {
+	display: table-cell;
+}
+
+footer {	
+	color: #FFF;	
+	font-weight: bolder;
+	float: right;	
+}
+
+#directions footer {
+	transform: translate(-22px, -100px) rotate(-90deg);
+	transform-origin: bottom right;
+	-ms-transform: translate(-22px, -100px) rotate(-90deg);
+	-ms-transform-origin: bottom right;
+	-webkit-transform: translate(-22px, -100px) rotate(-90deg);
+	-webkit-transform-origin: bottom right;
+}
+
+#shadows footer {
+	transform: translate(-22px, -130px) rotate(-90deg);
+	transform-origin: bottom right;
+	-ms-transform: translate(-22px, -130px) rotate(-90deg);
+	-ms-transform-origin: bottom right;
+	-webkit-transform: translate(-22px, -130px) rotate(-90deg);
+	-webkit-transform-origin: bottom right;
+}
+
+#rounded footer {
+	transform: translate(-22px, -155px) rotate(-90deg);
+	transform-origin: bottom right;
+	-ms-transform: translate(-22px, -155px) rotate(-90deg);
+	-ms-transform-origin: bottom right;
+	-webkit-transform: translate(-22px, -155px) rotate(-90deg);
+	-webkit-transform-origin: bottom right;
+}
+
+#mobile footer {
+	transform: translate(-22px, -120px) rotate(-90deg);
+	transform-origin: bottom right;
+	-ms-transform: translate(-22px, -120px) rotate(-90deg);
+	-ms-transform-origin: bottom right;
+	-webkit-transform: translate(-22px, -120px) rotate(-90deg);
+	-webkit-transform-origin: bottom right;
+}
+

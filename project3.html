@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Expandable Boxes, now easier with CSS3</title>
+<link rel="stylesheet" href="project3.css" />
+</head>
+<body>
+<section id="nav">
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Code Examples</a></li>
+      <li><a href="#">Videos</a></li>
+      <li><a href="#">Download</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">FAQ</a></li>
+    </ul>
+  </nav>
+</section>
+<div id="page">
+  <section id="sidebar">
+    <article>
+      <h3>HTML5 Tags</h3>
+      <p>Remember, HTML5 Semantic Layout tags such as:</p>
+      <ul>
+        <li>&lt;header&gt;</li>
+        <li>&lt;footer&gt;</li>
+        <li>&lt;section&gt; </li>
+        <li>etc.</li>
+      </ul>
+      <p>can be styled just as any HTML tag would normally be styled using CSS. </p>
+      </p>
+      <p>For this assignment, you will concentrate on rounded corners, drop shadows, text rotation, and using various CSS selectors. </p>
+    </article>
+  </section>
+  <section id="content">
+    <article id="directions">
+      <h3><span></span>Directions</h3>
+      <p>In these boxes, there is a pink  sidebar that expands to fit the content. The header text has a striped background.  Each section is enclosed by a grey and white box with rounded corners.</p>
+      <p>In order to make an expanding box with both a drop shadow and rounded corners, as well as an expanding pink sidebar, some very fancy slicing is necessary if you are styling with CSS1 or CSS2.</p>
+      <p>CSS3, on the other hand, makes the fancy slicing unnecessary.  You will be using CSS3. Hallelujah!</p>
+      <p>Your rules:</p>
+      <ul>
+        <li>you must not change the HTML</li>
+        <li>you must not change the images</li>
+        <li>you must not add any more images (however, you are allowed to create different or additional images for a new mobile layout)</li>
+        <li>please make a separate stylesheet for a mobile phone running the Android OS. There is not one correct way to do this; I would like you to think about which information is the most crucial for your user, and design a mobile layout accordingly. Please keep it simple.  You can test your layout by resizing your browser window, or by following the directions to download and install the Android SDK.  The SDK runs on both Windows and Mac and includes a browser emulator.</li>
+      </ul>
+      <footer>Directions</footer>
+    </article>
+    <article id="shadows">
+      <h3><span></span>Drop Shadows</h3>
+      <p>The box-shadow property allows designers to easily implement multiple drop shadows (outer or inner) on box elements, specifying values for color, size, blur and offset.</p>
+      <p>Browser support is growing of late with Mozilla (Firefox), Webkit (Safari/Chrome/Konqueror), Opera and the IE9 Platform Preview all offering a decent implementation of the spec, although Mozilla and Webkit still require their respective -moz- and -webkit- prefixes (note Mozilla Firefox 4.0+ no longer requires the -moz- prefix).</p>
+      <p>Read more of this article at <a href="http://www.css3.info/preview/box-shadow/" target="_blank">http://www.css3.info/preview/box-shadow/</a></p>
+      <footer>Drop Shadows</footer>
+    </article>
+    <article id="rounded">
+      <h3><span></span>Rounded Corners</h3>
+      <p>The CSS3 border-radius property allows web developers to easily utilise rounder corners in their design elements, without the need for corner images or the use of multiple div tags, and is perhaps one of the most talked about aspects of CSS3.</p>
+      <p>Since first being announced in 2005 the boder-radius property has come to enjoy widespread browser support (although with some discrepancies) and, with relative ease of use, web developers have been quick to make the most of this emerging technology.</p>
+      <p>Read more of this article at <a href="http://www.css3.info/preview/rounded-border/" target="_blank">http://www.css3.info/preview/rounded-border/</a></p>
+      <footer>Rounded Corners</footer>
+    </article>
+    <article id="mobile">
+      <h3><span></span>Supporting Multiple Browser Formats</h3>
+      <p>CSS2 added support for the media=&quot;screen&quot; way of defining which stylesheet to use for which representation of the data. CSS3 adds a new feature to this functionality, by adding media queries.</p>
+      <p>Basically, this means you can change stylesheets based on for instance the width and height of the viewport. In a broader sense, this means as the spec puts it: “by using Media Queries, presentations can be tailored to a specific range of output devices without changing the content itself.”</p>
+      <p>Read more of this article at <a href="http://www.css3.info/preview/media-queries/">http://www.css3.info/preview/media-queries/</a></p>
+      <footer>Media Types</footer>
+    </article>
+  </section>
+</div>
+</body>
+</html>
